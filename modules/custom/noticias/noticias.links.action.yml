@@ -1,0 +1,5 @@
+entity.noticias_entity.add_form:
+  route_name: entity.noticias_entity.add_form
+  title: 'Add Noticias'
+  appears_on:
+    - entity.noticias_entity.collection

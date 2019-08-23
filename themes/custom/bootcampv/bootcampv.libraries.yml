@@ -1,0 +1,10 @@
+style:
+  version: VERSION
+  css:
+    theme:
+      assets/css/bootcampv.style.css: {}
+  js:
+    assets/js/bootcampv.script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
