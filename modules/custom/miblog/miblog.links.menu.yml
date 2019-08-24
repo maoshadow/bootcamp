@@ -1,0 +1,14 @@
+
+# Miblog menu items definition
+entity.miblog_entity.collection:
+  title: 'Miblog list'
+  route_name: entity.miblog_entity.collection
+  description: 'List Miblog entities'
+  parent: system.admin_structure
+  weight: 100
+
+miblog_entity.admin.structure.settings:
+  title: 'Miblog settings'
+  description: 'Configure Miblog entities'
+  route_name: miblog_entity.settings
+  parent: system.admin_structure

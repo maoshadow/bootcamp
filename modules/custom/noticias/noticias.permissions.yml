@@ -1,0 +1,19 @@
+add noticias entities:
+  title: 'Create new Noticias entities'
+
+administer noticias entities:
+  title: 'Administer Noticias entities'
+  description: 'Allow to access the administration form to configure Noticias entities.'
+  restrict access: true
+
+delete noticias entities:
+  title: 'Delete Noticias entities'
+
+edit noticias entities:
+  title: 'Edit Noticias entities'
+
+view published noticias entities:
+  title: 'View published Noticias entities'
+
+view unpublished noticias entities:
+  title: 'View unpublished Noticias entities'

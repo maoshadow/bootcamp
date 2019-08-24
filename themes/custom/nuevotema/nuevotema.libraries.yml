@@ -1,0 +1,10 @@
+style:
+  version: VERSION
+  css:
+    theme:
+      assets/css/nuevotema.style.css: {}
+  js:
+    assets/js/nuevotema.script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

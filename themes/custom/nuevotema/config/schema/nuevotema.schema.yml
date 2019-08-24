@@ -1,0 +1,5 @@
+# Schema for the configuration files of the nuevotema theme.
+
+nuevotema.settings:
+  type: theme_settings
+  label: 'nuevotema settings'

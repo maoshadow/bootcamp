@@ -1,0 +1,5 @@
+name: 'miblog'
+type: module
+description: 'Mi blog de drupal'
+core: 8.x
+package: 'Bootcamp'

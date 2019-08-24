@@ -1,0 +1,19 @@
+add miblog entities:
+  title: 'Create new Miblog entities'
+
+administer miblog entities:
+  title: 'Administer Miblog entities'
+  description: 'Allow to access the administration form to configure Miblog entities.'
+  restrict access: true
+
+delete miblog entities:
+  title: 'Delete Miblog entities'
+
+edit miblog entities:
+  title: 'Edit Miblog entities'
+
+view published miblog entities:
+  title: 'View published Miblog entities'
+
+view unpublished miblog entities:
+  title: 'View unpublished Miblog entities'

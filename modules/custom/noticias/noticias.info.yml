@@ -1,0 +1,5 @@
+name: 'noticias'
+type: module
+description: 'Noticias de bootcamp'
+core: 8.x
+package: 'Bootcamp'

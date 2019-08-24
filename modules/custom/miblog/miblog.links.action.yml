@@ -1,0 +1,5 @@
+entity.miblog_entity.add_form:
+  route_name: entity.miblog_entity.add_form
+  title: 'Add Miblog'
+  appears_on:
+    - entity.miblog_entity.collection

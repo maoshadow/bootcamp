@@ -1,0 +1,14 @@
+
+# Noticias menu items definition
+entity.noticias_entity.collection:
+  title: 'Noticias list'
+  route_name: entity.noticias_entity.collection
+  description: 'List Noticias entities'
+  parent: system.admin_structure
+  weight: 100
+
+noticias_entity.admin.structure.settings:
+  title: 'Noticias settings'
+  description: 'Configure Noticias entities'
+  route_name: noticias_entity.settings
+  parent: system.admin_structure

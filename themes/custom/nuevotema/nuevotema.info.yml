@@ -1,0 +1,39 @@
+name: nuevotema
+description: nuevotema
+screenshot: screenshot.png
+# core: 8.x
+# version: VERSION
+engine: twig
+type: theme
+base theme: radix
+# hidden: true
+
+regions:
+  navbar_branding: Navbar branding
+  navbar_left:  Navbar left
+  navbar_right: Navbar right
+  header: Header
+  content: Content
+  page_bottom: Page bottom
+  footer: Footer
+
+libraries:
+  - radix/style
+  - nuevotema/style
+
+libraries-override:
+  radix/bootstrap: false
+
+ckeditor_stylesheets:
+  - assets/css/nuevotema.style.css
+
+component-libraries:
+  nuevotema:
+    paths:
+      - ./src/components
+
+# Information added by Drupal.org packaging script on 2019-07-23
+version: '8.x-4.4'
+core: '8.x'
+project: 'radix'
+datestamp: 1563909535
