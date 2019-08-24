@@ -1,0 +1,13 @@
+{
+    "name": "about",
+    "type": "drupal-module",
+    "description": "This module is about site",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/about",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/about",
+        "source": "http://cgit.drupalcode.org/about",
+    },
+}

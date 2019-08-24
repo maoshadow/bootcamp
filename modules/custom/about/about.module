@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains about.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function about_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the about module.
+    case 'help.page.about':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('This module is about site') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function about_theme() {
+  return [
+    'about' => [
+      'render element' => 'children',
+    ],
+  ];
+}

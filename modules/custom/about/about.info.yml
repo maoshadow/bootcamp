@@ -1,0 +1,5 @@
+name: 'about'
+type: module
+description: 'This module is about site'
+core: 8.x
+package: 'Custom'

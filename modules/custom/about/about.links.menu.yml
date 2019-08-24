@@ -1,0 +1,14 @@
+
+# About entity menu items definition
+entity.about_entity.collection:
+  title: 'About entity list'
+  route_name: entity.about_entity.collection
+  description: 'List About entity entities'
+  parent: system.admin_structure
+  weight: 100
+
+about_entity.admin.structure.settings:
+  title: 'About entity settings'
+  description: 'Configure About entity entities'
+  route_name: about_entity.settings
+  parent: system.admin_structure

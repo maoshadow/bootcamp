@@ -1,0 +1,30 @@
+add about entity entities:
+  title: 'Create new About entity entities'
+
+administer about entity entities:
+  title: 'Administer About entity entities'
+  description: 'Allow to access the administration form to configure About entity entities.'
+  restrict access: true
+
+delete about entity entities:
+  title: 'Delete About entity entities'
+
+edit about entity entities:
+  title: 'Edit About entity entities'
+
+view published about entity entities:
+  title: 'View published About entity entities'
+
+view unpublished about entity entities:
+  title: 'View unpublished About entity entities'
+
+view all about entity revisions:
+  title: 'View all About entity revisions'
+
+revert all about entity revisions:
+  title: 'Revert all About entity revisions'
+  description: 'Role requires permission <em>view About entity revisions</em> and <em>edit rights</em> for about entity entities in question or <em>administer about entity entities</em>.'
+
+delete all about entity revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view About entity revisions</em> and <em>delete rights</em> for about entity entities in question or <em>administer about entity entities</em>.'
