@@ -6,7 +6,15 @@
     "require": {
         "composer/installers": "^1.0.24",
         "wikimedia/composer-merge-plugin": "^1.4",
-        "drupal/console": "~1.0"
+        "drupal/console": "~1.0",
+        "drupal/admin_toolbar": "^1.27",
+        "drupal/backup_migrate": "^4.0",
+        "drupal/ctools": "^3.2",
+        "drupal/devel": "^2.1",
+        "drupal/page_manager": "^4.0@beta",
+        "drupal/panels": "^4.4",
+        "drupal/smtp": "^1.0@beta",
+        "drupal/bootstrap": "^3.20"
     },
     "replace": {
         "drupal/core": "^8.7"
